@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11,15 +11,15 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -33,9 +33,9 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -85,7 +85,7 @@
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="no"/>
@@ -855,114 +855,6 @@
 <vertex x="11.331" y="10.338"/>
 <vertex x="10.901" y="10.338"/>
 </polygon>
-<polygon width="0" layer="21">
-<vertex x="8.971" y="14.558"/>
-<vertex x="8.971" y="14.548"/>
-<vertex x="8.981" y="14.528"/>
-<vertex x="8.981" y="14.468"/>
-<vertex x="8.971" y="14.438"/>
-<vertex x="8.951" y="14.408"/>
-<vertex x="8.921" y="14.378"/>
-<vertex x="8.881" y="14.368"/>
-<vertex x="8.851" y="14.368"/>
-<vertex x="8.771" y="14.388"/>
-<vertex x="8.731" y="14.408"/>
-<vertex x="8.611" y="14.498"/>
-<vertex x="8.581" y="14.528"/>
-<vertex x="8.551" y="14.568"/>
-<vertex x="8.531" y="14.598"/>
-<vertex x="8.521" y="14.638"/>
-<vertex x="8.521" y="14.708"/>
-<vertex x="8.531" y="14.738"/>
-<vertex x="8.551" y="14.768"/>
-<vertex x="8.571" y="14.788"/>
-<vertex x="8.621" y="14.828"/>
-<vertex x="8.661" y="14.848"/>
-<vertex x="8.711" y="14.868"/>
-<vertex x="8.841" y="14.868"/>
-<vertex x="8.851" y="14.858"/>
-<vertex x="8.841" y="14.878"/>
-<vertex x="8.801" y="14.898"/>
-<vertex x="8.731" y="14.938"/>
-<vertex x="8.651" y="14.978"/>
-<vertex x="8.551" y="14.998"/>
-<vertex x="8.441" y="15.008"/>
-<vertex x="8.321" y="14.978"/>
-<vertex x="8.191" y="14.908"/>
-<vertex x="8.101" y="14.828"/>
-<vertex x="8.041" y="14.748"/>
-<vertex x="8.011" y="14.658"/>
-<vertex x="8.011" y="14.558"/>
-<vertex x="8.041" y="14.468"/>
-<vertex x="8.091" y="14.368"/>
-<vertex x="8.161" y="14.278"/>
-<vertex x="8.251" y="14.178"/>
-<vertex x="8.321" y="14.098"/>
-<vertex x="8.361" y="14.018"/>
-<vertex x="8.361" y="13.938"/>
-<vertex x="8.341" y="13.868"/>
-<vertex x="8.291" y="13.818"/>
-<vertex x="8.221" y="13.768"/>
-<vertex x="8.141" y="13.748"/>
-<vertex x="8.061" y="13.748"/>
-<vertex x="8.001" y="13.758"/>
-<vertex x="7.951" y="13.788"/>
-<vertex x="7.911" y="13.808"/>
-<vertex x="7.881" y="13.848"/>
-<vertex x="7.861" y="13.878"/>
-<vertex x="7.851" y="13.918"/>
-<vertex x="7.851" y="13.958"/>
-<vertex x="7.871" y="14.018"/>
-<vertex x="7.901" y="14.038"/>
-<vertex x="7.921" y="14.058"/>
-<vertex x="7.951" y="14.068"/>
-<vertex x="7.971" y="14.088"/>
-<vertex x="7.991" y="14.098"/>
-<vertex x="8.011" y="14.098"/>
-<vertex x="8.011" y="14.108"/>
-<vertex x="7.991" y="14.108"/>
-<vertex x="7.961" y="14.118"/>
-<vertex x="7.921" y="14.128"/>
-<vertex x="7.831" y="14.128"/>
-<vertex x="7.771" y="14.118"/>
-<vertex x="7.711" y="14.098"/>
-<vertex x="7.611" y="14.038"/>
-<vertex x="7.561" y="13.998"/>
-<vertex x="7.521" y="13.948"/>
-<vertex x="7.491" y="13.888"/>
-<vertex x="7.471" y="13.808"/>
-<vertex x="7.461" y="13.718"/>
-<vertex x="7.461" y="12.208"/>
-<vertex x="7.461" y="12.218"/>
-<vertex x="7.481" y="12.238"/>
-<vertex x="7.511" y="12.278"/>
-<vertex x="7.551" y="12.328"/>
-<vertex x="7.601" y="12.388"/>
-<vertex x="7.661" y="12.448"/>
-<vertex x="7.781" y="12.588"/>
-<vertex x="7.851" y="12.668"/>
-<vertex x="7.921" y="12.738"/>
-<vertex x="7.971" y="12.798"/>
-<vertex x="8.031" y="12.848"/>
-<vertex x="8.091" y="12.888"/>
-<vertex x="8.141" y="12.918"/>
-<vertex x="8.211" y="12.928"/>
-<vertex x="8.421" y="12.928"/>
-<vertex x="8.551" y="12.948"/>
-<vertex x="8.671" y="12.978"/>
-<vertex x="8.781" y="13.028"/>
-<vertex x="8.881" y="13.088"/>
-<vertex x="8.981" y="13.168"/>
-<vertex x="9.061" y="13.258"/>
-<vertex x="9.141" y="13.358"/>
-<vertex x="9.251" y="13.558"/>
-<vertex x="9.301" y="13.758"/>
-<vertex x="9.311" y="13.948"/>
-<vertex x="9.281" y="14.128"/>
-<vertex x="9.231" y="14.278"/>
-<vertex x="9.151" y="14.408"/>
-<vertex x="9.061" y="14.508"/>
-</polygon>
 <wire x1="0" y1="29.21" x2="1.27" y2="30.48" width="0.254" layer="20" curve="-90"/>
 <wire x1="20.32" y1="30.48" x2="21.59" y2="29.21" width="0.254" layer="20" curve="-90"/>
 <wire x1="21.59" y1="1.27" x2="20.32" y2="0" width="0.254" layer="20" curve="-90"/>
@@ -970,7 +862,7 @@
 <wire x1="0" y1="1.27" x2="0" y2="29.21" width="0.254" layer="20"/>
 <wire x1="1.27" y1="30.48" x2="20.32" y2="30.48" width="0.254" layer="20"/>
 <wire x1="21.59" y1="29.21" x2="21.59" y2="1.27" width="0.254" layer="20"/>
-<text x="-45.72" y="11.43" size="1.778" layer="25" font="vector" ratio="15">M.Hord</text>
+<text x="-21.59" y="-12.7" size="1.778" layer="25" font="vector" ratio="15">M.Hord</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1379,7 +1271,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-77.47" y="11.43"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-53.34" y="-12.7"/>
 <element name="JP1" library="SparkFun-Connectors" package="JST-2-SMD" value="JST-SMT" x="17.78" y="15.24" rot="R270">
 <attribute name="PROD_ID" value="CONN-08352" x="17.78" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>

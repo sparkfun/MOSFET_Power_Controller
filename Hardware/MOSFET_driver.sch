@@ -1782,8 +1782,8 @@ High-power, low thermal resistance package.</description>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="7.62" size="3.81" layer="91">M. Hord</text>
-<text x="238.252" y="6.35" size="3.81" layer="91">10</text>
+<text x="172.72" y="7.62" size="3.81" layer="94">M. Hord</text>
+<text x="238.252" y="6.35" size="3.81" layer="94">10</text>
 <text x="171.958" y="137.668" size="5.08" layer="91">IN+</text>
 <text x="171.704" y="119.634" size="5.08" layer="91">IN-</text>
 <text x="171.196" y="92.202" size="5.08" layer="91">OUT+</text>
