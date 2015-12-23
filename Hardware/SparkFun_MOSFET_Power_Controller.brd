@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -380,7 +380,7 @@
 <text x="12.827" y="20.447" size="1.27" layer="21" font="vector" ratio="15">IN-</text>
 <text x="13.97" y="12.573" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">+</text>
 <text x="13.97" y="17.145" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">-</text>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="0.801" y="10.848"/>
 <vertex x="0.811" y="10.788"/>
 <vertex x="0.831" y="10.728"/>
@@ -473,7 +473,7 @@
 <vertex x="0.421" y="10.708"/>
 <vertex x="0.401" y="10.848"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="2.791" y="11.618"/>
 <vertex x="2.691" y="11.608"/>
 <vertex x="2.611" y="11.568"/>
@@ -535,7 +535,7 @@
 <vertex x="2.851" y="11.818"/>
 <vertex x="2.831" y="11.778"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="2.881" y="11.938"/>
 <vertex x="3.051" y="11.918"/>
 <vertex x="3.201" y="11.868"/>
@@ -557,7 +557,7 @@
 <vertex x="2.831" y="11.778"/>
 <vertex x="2.851" y="11.818"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="4.401" y="10.588"/>
 <vertex x="4.511" y="10.598"/>
 <vertex x="4.591" y="10.628"/>
@@ -646,7 +646,7 @@
 <vertex x="4.341" y="10.478"/>
 <vertex x="4.361" y="10.508"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="4.241" y="10.298"/>
 <vertex x="4.131" y="10.308"/>
 <vertex x="4.031" y="10.328"/>
@@ -673,7 +673,7 @@
 <vertex x="4.281" y="10.368"/>
 <vertex x="4.261" y="10.338"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="5.411" y="11.818"/>
 <vertex x="5.811" y="11.898"/>
 <vertex x="5.811" y="11.608"/>
@@ -705,7 +705,7 @@
 <vertex x="5.831" y="10.338"/>
 <vertex x="5.411" y="10.338"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="6.571" y="12.248"/>
 <vertex x="6.631" y="12.278"/>
 <vertex x="6.731" y="12.338"/>
@@ -744,7 +744,7 @@
 <vertex x="7.001" y="10.338"/>
 <vertex x="6.571" y="10.338"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="8.371" y="11.608"/>
 <vertex x="7.951" y="11.608"/>
 <vertex x="7.981" y="11.648"/>
@@ -782,7 +782,7 @@
 <vertex x="8.791" y="10.338"/>
 <vertex x="8.371" y="10.338"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="10.661" y="10.338"/>
 <vertex x="10.261" y="10.338"/>
 <vertex x="10.261" y="10.558"/>
@@ -819,7 +819,7 @@
 <vertex x="10.241" y="11.898"/>
 <vertex x="10.661" y="11.898"/>
 </polygon>
-<polygon width="0" layer="21">
+<polygon width="0.0254" layer="21">
 <vertex x="10.901" y="11.898"/>
 <vertex x="11.301" y="11.898"/>
 <vertex x="11.301" y="11.678"/>
@@ -1191,6 +1191,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
